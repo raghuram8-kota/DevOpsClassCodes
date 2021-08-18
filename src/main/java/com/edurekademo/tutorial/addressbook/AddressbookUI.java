@@ -19,7 +19,7 @@ import com.vaadin.v7.ui.Grid;
 import com.vaadin.v7.ui.TextField;
 
 /* User Interface written in Java. ****
- *
+ * Test comment to trigger jenkins job
  * Define the user interface shown on the Vaadin generated web page by extending the UI class.
  * By default, a new UI instance is automatically created when the page is loaded. To reuse
  * the same instance, add @PreserveOnRefresh.
@@ -34,7 +34,7 @@ public class AddressbookUI extends UI {
      * objects that encapsulate and handle cross-browser support and
      * client-server communication. The default Vaadin components are in the
      * com.vaadin.ui package and there are over 500 more in
-     * vaadin.com/directory.
+     * vaadin.com/directory.    
      */
     TextField filter = new TextField();
     Grid contactList = new Grid();
